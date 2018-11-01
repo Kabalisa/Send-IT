@@ -38,3 +38,19 @@ body{
 	border-color: #FF9800;
 
 }
+
+.sliding{
+	display:none;
+	text-align: center;
+	width: 75%;
+	height:75%;
+	margin:auto;
+}
+
+
+.slide{
+	text-align: center;
+
+}
+
+
