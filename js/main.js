@@ -28,16 +28,30 @@ function whit(){
 
 function regular(){
 	document.getElementById("6").style.color = '#FF9800';
-    
+    document.getElementById("6").style.backgroundColor = '#256188';
 }
 
 function regular1(){
 	document.getElementById("7").style.color = '#FF9800';
-    
+    document.getElementById("7").style.backgroundColor = '#256188';
 }
 
 function back(){
 	document.getElementById("6").style.color = '#256188';
 	document.getElementById("7").style.color = '#256188';
+    document.getElementById("6").style.backgroundColor = '#DDDDDD';
+    document.getElementById("7").style.backgroundColor = '#DDDDDD';
+}
+
+function company(){
+	document.getElementById("9").style.zIndex = "1";
+	document.getElementById("10").style.zIndex = "0";
+	document.getElementById("8").style.zIndex = "-1";
+}
+
+function person(){
+	document.getElementById("9").style.zIndex = "0";
+	document.getElementById("10").style.zIndex = "1";
+	document.getElementById("8").style.zIndex = "-1";
 
 }
