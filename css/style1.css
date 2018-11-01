@@ -99,3 +99,16 @@ body{
 	background-color: red;
     z-index: 1;
 }
+
+.uno{
+	text-align: center;
+	font-size: 18px;
+}
+
+.dos{
+	color: red;
+}
+
+.tres{
+	width: 250px;
+}
