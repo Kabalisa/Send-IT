@@ -10,6 +10,7 @@ body{
 	height: 50px;
 	display: flex;
 	justify-content: center;
+	margin-bottom: 10px;
 }
 
 .one-1{
@@ -43,7 +44,7 @@ body{
 	display:none;
 	text-align: center;
 	width: 75%;
-	height:75%;
+	height:25%;
 	margin:auto;
 }
 
