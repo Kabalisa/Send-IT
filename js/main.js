@@ -25,3 +25,19 @@ function whit(){
 	document.getElementById("4").style.color = 'white';
 	document.getElementById("5").style.color = 'white';
 }
+
+function regular(){
+	document.getElementById("6").style.color = '#FF9800';
+    
+}
+
+function regular1(){
+	document.getElementById("7").style.color = '#FF9800';
+    
+}
+
+function back(){
+	document.getElementById("6").style.color = '#256188';
+	document.getElementById("7").style.color = '#256188';
+
+}

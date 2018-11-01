@@ -36,5 +36,33 @@ body{
 	border-style: solid;
 	border-width: 1px;
 	border-color: #FF9800;
+}
 
+.two{
+	text-align: center;
+	position: relative;
+	padding-bottom: 10px; 
+}
+
+.two-1{
+	font-size: 22px;
+	color: #256188;
+}
+
+.two-2{
+	position: relative;
+	right: 40px;
+    padding: 13px;
+    border-radius: 8px;
+    border: none;
+    color: #256188;
+}
+
+.two-3{
+    position: relative;
+    left: 40px;
+    padding: 13px;
+    border-radius: 8px;
+    border: none;
+    color: #256188;
 }
