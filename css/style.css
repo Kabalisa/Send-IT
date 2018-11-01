@@ -1,3 +1,21 @@
 body{
 	display: flex;
+		
+	padding: 0;
 }
+
+.sliding{
+	display:none;
+	text-align: center;
+	width: 75%;
+	height:50%;
+	margin:auto;
+}
+
+
+.slide{
+	text-align: center;
+
+}
+
+
