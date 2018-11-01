@@ -66,3 +66,7 @@ body{
     border: none;
     color: #256188;
 }
+
+.three{
+	display: grid;
+}
