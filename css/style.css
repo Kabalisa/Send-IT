@@ -115,3 +115,33 @@ footer{
 footer .ci{
 	color:yellow;
 }
+
+
+.signin-form{
+margin:auto;
+width: 400px;
+height: 500px;
+background-color: #DDDDDD;
+margin-bottom: 20px;
+border-radius: 10px;
+}
+
+form{
+	text-align: center;
+}
+
+form input .text {
+	width: 100px;
+	height: 50px;
+	border-radius: 10px;
+
+}
+
+.signin-form  input{
+margin:10px;
+}
+
+form a{
+	text-decoration: none;
+	font-size: 16px;
+}
