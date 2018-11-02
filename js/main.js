@@ -14,9 +14,18 @@ function yello3(){
 	document.getElementById("4").style.color = '#FFCC00';
 }
 
+function yello3(){
+	document.getElementById("4").style.color = '#FFCC00';
+}
+
 function yello4(){
 	document.getElementById("5").style.color = '#FFCC00';
 }
+
+function yello5(){
+	document.getElementById("13").style.color = '#FFCC00';
+}
+
 
 function whit(){
 	document.getElementById("1").style.color = 'white';
@@ -24,6 +33,7 @@ function whit(){
 	document.getElementById("3").style.color = 'white';
 	document.getElementById("4").style.color = 'white';
 	document.getElementById("5").style.color = 'white';
+	document.getElementById("13").style.color = 'white';
 }
 
 function regular(){
