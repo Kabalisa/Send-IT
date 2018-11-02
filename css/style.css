@@ -103,11 +103,15 @@ padding: 10px;
 
 hr{
 	opacity:0.5;
-	border-width: 4px;
+	border-width: 2px;
 }
 footer{
 	text-align: center;
 	font-size: 20px;
 	margin-top: 20px;
 	margin-bottom: 20px;
+}
+
+footer .ci{
+	color:yellow;
 }
