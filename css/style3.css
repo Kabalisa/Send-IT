@@ -94,7 +94,7 @@ footer{
  display: flex;
  flex-direction: column;
  position: relative;
- margin-left: 70px;
+ margin-left: 120px;
 }
 
 .choice>input{
@@ -109,8 +109,20 @@ footer{
 .switch{
 	display: grid;
 	grid-template-areas: "over";
+	margin-left: 270px;
 }
 
 .histo{
+  grid-area: over;
+}
 
+.tabl{
+  border: 1px solid black;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.view{
+	text-decoration: none;
+	color: blue;
 }
