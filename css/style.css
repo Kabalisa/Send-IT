@@ -156,7 +156,9 @@ margin:20px;
 
 }
 
-
+.signinform a{
+	border-width: 2px;
+}
 
 form a{
 	text-decoration: none;
