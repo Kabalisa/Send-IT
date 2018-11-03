@@ -24,8 +24,9 @@
 		<a href=""><span class="diss">0</span> Notifications</a>
 		<a href="">Track</a>
 	</div>
-  <div class="hidee">
-	<div class="display">
+ 
+	<div class="display" id="disp">
+     <div id="hidee">
 		<h3 class="cente"><b>Delivery Order</b></h3><br>
         Parcel No. <select disabled="true"><option value="1">1</option><option value="2">2</option><option value="3">3</option></select><br><br>
         Weight <input type="text" disabled="true"  value="2 kg"> <br>
@@ -53,14 +54,20 @@
         Receiver's Phone <input type="text" id="edit" class="pick1" disabled="true"  value="0785382213"><br><br>
         Receiver's Email <input type="text" id="edit" class="pick1" disabled="true"  value="ikabalisa20@gmail.com"><br><br>
         </div>
-        
+
+        <div>
+          <b><h4>Status:</h4></b><br>
+          <input type="text" id="edit" class="pick1" disabled="true"  value="Pending">
+        </div>
+
         </div>
         <input type="button" value="Edit" class="do" onclick="ondis();">
         <input type="button" value="Save" class="do" onclick="onenable();">
-        <input type="button" value="Cance Order" class="do" onclick="onenable1();">
+        <input type="button" value="Cancel Order" class="do" onclick="onenable1();">
+        </div>
     </div>
   </div>
-</div>
+
 <div class="block-1">   
           <a href="#">Home</a>
           <a href="#">Contact Us</a>

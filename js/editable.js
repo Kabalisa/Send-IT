@@ -17,7 +17,7 @@ for(i=0; i<12; i++){
 }
 
 function onenable1(){
-
-	var cont = document.getElementsByClassName('hidee').innerHTML="  ";
-	
+    var height =document.getElementById("disp").style.height= "100px";
+	var cont = document.getElementById('hidee').innerHTML="<h1> Your Order Has Been Canceled </h1>";
+	document.getElementById('hidee').style.color = "#256188"
 }
