@@ -79,3 +79,4 @@ function regular3(){
 	document.getElementById("12").style.color = '#FF9800';
     document.getElementById("12").style.backgroundColor = '#256188';
 }
+

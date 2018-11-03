@@ -114,15 +114,55 @@ footer{
 
 .histo{
   grid-area: over;
+  z-index: 0;
+  background-color: white;
+  width: 570px;
+  height: 433px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 8px;
+  overflow: auto;
 }
 
 .tabl{
-  border: 1px solid black;
-  font-size: 18px;
-  margin-bottom: 10px;
+	display: block;
+	border-collapse: separate;
+	border-spacing: 0 1em;
+    border: none;
+    font-size: 18px;
+    margin-bottom: 10px;
 }
 
 .view{
 	text-decoration: none;
 	color: blue;
 }
+
+.cure{
+	grid-area: over;
+	z-index: 1;
+	background-color: white;
+	width: 570px;
+	height: 433px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	overflow: auto;
+}
+
+.tab{
+	display: block;
+	border-collapse: separate;
+	border-spacing: 0 1em;
+	border: none;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+tr{
+	background-color: #ABB1BA;
+	color: #010101;
+ }
+
+ tr:hover {background-color: #011740; color: white;}
+

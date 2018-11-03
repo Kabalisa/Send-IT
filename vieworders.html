@@ -3,6 +3,7 @@
 <head>
 	<title>vieworders</title>
 	<link rel="stylesheet" type="text/css" href="css/style3.css">
+	<script src="js/toggle.jS"></script>
 	<script src="js/main.js"></script>
 </head>
 <body>
@@ -28,14 +29,14 @@
 	</div>
 
 	<div class="choice">
-		<input type="button" value="  History  ">
-		<input type="button" value="  Current  ">
+		<input type="button" value="  History  "  id="14" onmouseover="regular4()" onmouseout="bac()" onclick="toggle1()">
+		<input type="button" value="  Current  "  id="15" onmouseover="regular5()" onmouseout="bac()" onclick="toggle2()">
 	</div>
 
     <div class="switch">
     
-    <div class="histo">
-    <table class="tabl" rules="all" cellpadding="16px" bgcolor="#999999">
+    <div class="histo" id="hi">
+    <table class="tabl" rules="rows" cellpadding="16px">
     	<tr>
     		<th>Order No.</th>
     		<th>Origin</th>
@@ -44,34 +45,96 @@
     		<th>View</th>
     	</tr>
     	<tr>
-    		<td>1</td>
-    		<td>Nyamirambo</td>
-    		<td>Mucyo</td>
+    		<td>D-1</td>
+    		<td>Nyarutarama</td>
+    		<td>Muhabura</td>
     		<td>Delivered</td>
-    		<td><a href="order-detail.html" class="view">view</a></td>
+    		<td><a href="#" class="view">view</a></td>
     	</tr>
     	<tr>
-    		<td>2</td>
+    		<td>D-2</td>
     		<td>Nyabugogo</td>
     		<td>Mumigi</td>
     		<td>Delivered</td>
     		<td><a href="#" class="view">view</a></td>
     	</tr>
     	<tr>
-    		<td>3</td>
+    		<td>D-3</td>
     		<td>Remera</td>
     		<td>Kimihurura</td>
     		<td>Delivered</td>
     		<td><a href="#" class="view">view</a></td>
     	</tr>
     	<tr>
-    		<td>4</td>
+    		<td>D-4</td>
     		<td>Kimironko</td>
     		<td>Ruyenzi</td>
     		<td>Delivered</td>
     		<td><a href="#" class="view">view</a></td>
     	</tr>
+    	<tr>
+    		<td>D-5</td>
+    		<td>Kiyovu</td>
+    		<td>Biryogo</td>
+    		<td>Delivered</td>
+    		<td><a href="#" class="view">view</a></td>
+    	</tr>
+    	<tr>
+    		<td>D-6</td>
+    		<td>Byimana</td>
+    		<td>Muhororo</td>
+    		<td>Delivered</td>
+    		<td><a href="#" class="view">view</a></td>
+    	</tr>
+    	<tr>
+    		<td>D-7</td>
+    		<td>Kanombe</td>
+    		<td>Kamembe</td>
+    		<td>Delivered</td>
+    		<td><a href="#" class="view">view</a></td>
+    	</tr>
     </table>
+    </div>
+    
+
+    <div class="cure" id="ta">
+    	<table class="tab" rules="rows" cellpadding="16px" frame="vsides">
+    	 	<tr>
+    		<th>Order No.</th>
+    		<th>Origin</th>
+    		<th>Desination</th>
+    		<th>Status</th>
+    		<th>View</th>
+    	 </tr>
+    	 <tr>
+    		<td>1</td>
+    		<td>Nyamirambo</td>
+    		<td>Mucyo</td>
+    		<td>Pending</td>
+    		<td><a href="order-detail.html" class="view">view</a></td>
+    	</tr>
+    	<tr>
+    		<td>2</td>
+    		<td>Ndera</td>
+    		<td>Kabeza</td>
+    		<td>Pending</td>
+    		<td><a href="#" class="view">view</a></td>
+    	</tr>
+    	<tr>
+    		<td>3</td>
+    		<td>Kabgayi</td>
+    		<td>Save</td>
+    		<td>Pending</td>
+    		<td><a href="#" class="view">view</a></td>
+    	</tr>
+    	<tr>
+    		<td>4</td>
+    		<td>Kansi</td>
+    		<td>Bumbogo</td>
+    		<td>Pending</td>
+    		<td><a href="#" class="view">view</a></td>
+    	</tr>
+    	</table>
     </div>
 
     </div>
