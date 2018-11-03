@@ -70,7 +70,7 @@ body{
 	position: relative;
 	display: grid;
 	grid-template-areas: "over";
-	height: 950px;
+	height: 1055px;
 }
 
 .three-a{
@@ -200,6 +200,10 @@ body{
     border: none;
     color: #256188;
     background-color: white;
+}
+
+.block-1{
+	margin-top: 20px;
 }
 
 .block-1 a{
