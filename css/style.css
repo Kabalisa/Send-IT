@@ -74,10 +74,13 @@ padding: 10px;
 }
 
 .content-slide{
-	position:relative;
-	top:50%;
+	position:absolute;
+	top:30%;
+	left:30%;
 	text-align: center;
 	z-index: 2;
+	font-size: 30px;
+	color:#FF9800;
 
 
 }
@@ -156,9 +159,7 @@ margin:20px;
 
 }
 
-.signinform a{
-	border-width: 2px;
-}
+
 
 form a{
 	text-decoration: none;
