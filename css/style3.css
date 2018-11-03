@@ -116,7 +116,7 @@ footer{
   grid-area: over;
   z-index: 0;
   background-color: white;
-  width: 570px;
+  width: 590px;
   height: 433px;
   text-align: center;
   display: flex;
@@ -143,7 +143,7 @@ footer{
 	grid-area: over;
 	z-index: 1;
 	background-color: white;
-	width: 570px;
+	width: 590px;
 	height: 433px;
 	text-align: center;
 	display: flex;

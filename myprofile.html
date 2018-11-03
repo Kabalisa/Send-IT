@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>vieworders</title>
+	<title>My Profile</title>
+	<link rel="stylesheet" type="text/css" href="css/style6.css">
 	<link rel="stylesheet" type="text/css" href="css/style3.css">
-	<script src="js/toggle.jS"></script>
-	<script src="js/main.js"></script>
 </head>
-<body>
+<body onload="go()">
+
 <header>
 	<div class="one">
 	<a href="index.html" class="one-1" id="1" onmouseover="yello()" onmouseout="whit()">Send-<span class="it">IT</span></a>
@@ -18,8 +18,8 @@
 </div>
 </header>
 
-<div class="contain">
-	
+<div class="conta">
+
 	<div class="menu">
 		<a href="createorder.html">Create Order</a>
 		<a href="vieworders.html">View Orders</a>
@@ -27,45 +27,74 @@
 		<a href=""><span class="diss">0</span> Notifications</a>
 		<a href="">Track</a>
 	</div>
-
-	<div class="choice">
-		<input type="button" value="  History  "  id="14" onmouseover="regular4()" onmouseout="bac()" onclick="toggle1()">
-		<input type="button" value="  Current  "  id="15" onmouseover="regular5()" onmouseout="bac()" onclick="toggle2()">
-	</div>
-
-    <div class="switch">
     
-    <div class="histo" id="hi">
-    <table class="tabl" rules="rows" cellpadding="16px">
-    	<tr>
+    <div class="tudiv">
+    	
+    	<div class="info">
+    		
+    		<div class="messi">
+    		<h3><b>My Profile</b></h3>
+    		<h4>Personal Profle:</h4>
+    		First Name<br> <input type="text" value="Innocent Fiston" disabled="true"><br><br>
+            Last Name<br> <input type="text" value="Kabalisa" disabled="true"><br><br>
+            Mobile Phone<br> <input type="text" value="+250785382213" disabled="true"><br><br>
+            Email Address<br> <input type="text" value="ikabalisa20@gmail.com" disabled="true"><br><br>
+            Street number<br> <input type="text" value="KN 259 St" disabled="true"><br><br>
+            street name<br>   <input type="text" value="Rwezamenyo" disabled="true"><br><br>
+    		</div>
+
+            <div class="dembele">
+            Town/City<br> <input type="text" value="Nyarugenge" disabled="true"><br><br>
+            Province<br> <input type="text" value="Kigali" disabled="true"><br><br>
+            Country<br> <select  disabled="true" disabled="true">
+        	<option value="Rwanda">Rwanda</option>
+            </select><br><br>
+            <h3><b>Login Information</b></h3>
+            User ID<br> <input type="text" value="201228"disabled="true"><br><br>
+            Password<br> <input type="Password" value="12345678" disabled="true"><br><br>
+            <input type="button" value="Edit" class="do" onclick="ondis()">
+            <input type="button" value="Save" class="do" onclick="onenable()">
+            </div>
+
+        </div>
+
+    	<div class="parcel">
+    		<h4>Number Of Delivered Parcels: 7.<br></h4>
+    		<h4>Number of Pending Prcels:    4.<br></h4>
+    		<h4>Parcels History <a href="#hi" class="view" onclick="show()">view/hide</a></h4>
+    	</div>
+        
+        <div class="histos" id="hi">
+         <table class="tabl" rules="rows" cellpadding="16px">
+    	 <tr>
     		<th>Order No.</th>
     		<th>Origin</th>
     		<th>Desination</th>
     		<th>Status</th>
     		<th>View</th>
-    	</tr>
-    	<tr>
+    	 </tr>
+    	 <tr>
     		<td>D-1</td>
     		<td>Nyarutarama</td>
     		<td>Muhabura</td>
     		<td>Delivered</td>
     		<td><a href="#" class="view">view</a></td>
-    	</tr>
-    	<tr>
+    	 </tr>
+    	 <tr>
     		<td>D-2</td>
     		<td>Nyabugogo</td>
     		<td>Mumigi</td>
     		<td>Delivered</td>
     		<td><a href="#" class="view">view</a></td>
-    	</tr>
-    	<tr>
+    	 </tr>
+    	 <tr>
     		<td>D-3</td>
     		<td>Remera</td>
     		<td>Kimihurura</td>
     		<td>Delivered</td>
     		<td><a href="#" class="view">view</a></td>
-    	</tr>
-    	<tr>
+    	 </tr>
+    	 <tr>
     		<td>D-4</td>
     		<td>Kimironko</td>
     		<td>Ruyenzi</td>
@@ -78,64 +107,23 @@
     		<td>Biryogo</td>
     		<td>Delivered</td>
     		<td><a href="#" class="view">view</a></td>
-    	</tr>
-    	<tr>
+    	 </tr>
+    	 <tr>
     		<td>D-6</td>
     		<td>Byimana</td>
     		<td>Muhororo</td>
     		<td>Delivered</td>
     		<td><a href="#" class="view">view</a></td>
-    	</tr>
-    	<tr>
+    	 </tr>
+    	 <tr>
     		<td>D-7</td>
     		<td>Kanombe</td>
     		<td>Kamembe</td>
     		<td>Delivered</td>
     		<td><a href="#" class="view">view</a></td>
-    	</tr>
-    </table>
-    </div>
-    
-
-    <div class="cure" id="ta">
-    	<table class="tab" rules="rows" cellpadding="16px" frame="vsides">
-    	 	<tr>
-    		<th>Order No.</th>
-    		<th>Origin</th>
-    		<th>Desination</th>
-    		<th>Status</th>
-    		<th>Edit</th>
     	 </tr>
-    	 <tr>
-    		<td>1</td>
-    		<td>Nyamirambo</td>
-    		<td>Mucyo</td>
-    		<td>Pending</td>
-    		<td><a href="order-detail.html" class="view">Edit</a></td>
-    	</tr>
-    	<tr>
-    		<td>2</td>
-    		<td>Ndera</td>
-    		<td>Kabeza</td>
-    		<td>Pending</td>
-    		<td><a href="#" class="view">Edit</a></td>
-    	</tr>
-    	<tr>
-    		<td>3</td>
-    		<td>Kabgayi</td>
-    		<td>Save</td>
-    		<td>Pending</td>
-    		<td><a href="#" class="view">Edit</a></td>
-    	</tr>
-    	<tr>
-    		<td>4</td>
-    		<td>Kansi</td>
-    		<td>Bumbogo</td>
-    		<td>Pending</td>
-    		<td><a href="#" class="view">Edit</a></td>
-    	</tr>
-    	</table>
-    </div>
+        </table>
+        </div>
 
     </div>
 
@@ -151,6 +139,8 @@
        <hr>
        <footer>
          Copyright © 2084 Send-IT	
-        </footer>
+       </footer>
+
+<script src="js/hide.js"></script>
 </body>
 </html>
