@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="initial-scale=1.0">
+	<title>Send-IT</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div class="one">
+	<a href="index.html" class="one-1" id="1" onmouseover="yello()" onmouseout="whit()">Send-<p class="it">IT</p></a>
+	<a href="contactus.html" class="one-2" id="2" onmouseover="yello1()" onmouseout="whit()">Contact Us</a>
+	<a href="contactus.html#contact" class="one-2" id="3" onmouseover="yello2()" onmouseout="whit()">About Us</a>
+	<a href="signup.html" class="one-2" id="4" onmouseover="yello3()" onmouseout="whit()">Sign up</a>
+	<a href="signin.html" class="one-2" id="5" onmouseover="yello4()" onmouseout="whit()">Sign In</a>
+</div>	
+
+<div id="map">
+</div>
+
+<div class="block-1">
+<a href="index.html">Home</a>
+<a href="contactus.html">Contact Us</a>
+<a href="contactus.html#contact">About Us</a>
+<a href="signup.html">Sign Up</a>
+<a href="signin.html">Sign In</a>
+</div>
+
+<hr>
+
+<footer>
+Copyright © 2084 Send-IT	
+</footer>
+<script src="js/main.js"></script>
+<script>
+	function initMap(){
+		var options = {
+			zoom:8,
+			center:{lat:1.9706,lng:-30.1044}
+		}
+		var map= new google.maps.Map(document.getElementById('map'),options);
+	}
+
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCt8zCAdn_xbM-Sw2Cqg9Wz7tL4jaDVkLk&callback=initMap"></script>
+</script>
+</body>
+</html>
