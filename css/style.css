@@ -42,11 +42,12 @@ body{
 
 .sliding{
 	display:none;
-	width: 100%;
+	width: 98%;
 	height:500px;
 	margin:auto;
 	text-align: center;
 	z-index: 0;
+	border-radius: 8px;
 
 }
 
@@ -56,6 +57,7 @@ position: relative;
 right: 600px;
 top: -250px;
 z-index: 1;
+
 }
 
 .next{
@@ -68,19 +70,20 @@ z-index: 1;
 
 .next, .prev{
 border:none;
-background-color:#DDDDDD;
-font-size: 16px;
+background-color:transparent;
+font-size: 30px;
 padding: 10px;
+color:white;
 }
 
 .content-slide{
 	position:absolute;
-	top:30%;
-	left:30%;
+	top:25%;
+	left:25%;
 	text-align: center;
 	z-index: 2;
 	font-size: 30px;
-	color:#FF9800;
+	color:white;
 
 
 }
@@ -93,6 +96,7 @@ padding: 10px;
 .slide{
 	position: relative;
 	text-align: center;
+
 }
 
 .block-1{
