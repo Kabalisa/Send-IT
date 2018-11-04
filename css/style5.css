@@ -78,6 +78,7 @@ textarea{
 .small-descr{
 	justify-content: center;
 	margin-bottom: 20px;
+	margin-top: -20px;
 	font-size: 20px;
 	color:white;
 }
@@ -90,4 +91,10 @@ textarea{
 
 	color:white;
 
+}
+
+input .subm{
+	padding: 20px;
+	font-size: 20px;
+	border:none;
 }
