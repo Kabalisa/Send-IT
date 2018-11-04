@@ -1,7 +1,7 @@
 
 function ondis(){
 var x = document.getElementsByTagName('input');
-for(i=0; i<12; i++){	
+for(i=0; i<13; i++){	
  x[i].disabled=false;
 }
 
@@ -10,7 +10,7 @@ for(i=0; i<12; i++){
 
 function onenable(){
 var x = document.getElementsByTagName('input');
-for(i=0; i<12; i++){	
+for(i=0; i<13; i++){	
  x[i].disabled=true;
 }
 
