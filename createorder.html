@@ -3,7 +3,6 @@
 <head>
 	<title>Create Order</title>
 	<link rel="stylesheet" type="text/css" href="css/style2.css">
-	<script src="js/main.js"></script>
 </head>
 <body>
 <header>
@@ -26,7 +25,7 @@
 	</div>
 	<div class="display">
 		<h3 class="cente"><b>Delivery Order</b></h3><br>
-        Parcel No. <select><option value="1">1</option><option value="2">2</option><option value="3">3</option></select><br><br>
+        Parcel No. <select id = "pid"><option value="0">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option></select><br><br>
         Weight <input type="text" > .in Kilograms<br>
         <div class="ano">
 
@@ -54,7 +53,8 @@
         </div>
         
         </div>
-        <input type="button" value="Place Order" class="do">
+        <input type="button" value="Place Order" class="do" onclick="addi()">
+        <input type="button" value="Clear" class="do" onclick="ucl()">
     </div>
 </div>
 <div class="block-1">   
@@ -68,5 +68,7 @@
        <footer>
          Copyright © 2084 Send-IT	
         </footer>
+        <script src="js/main.js"></script>
+        <script  src="js/createOrder.js"></script>
 </body>
 </html>
