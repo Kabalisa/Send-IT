@@ -23,7 +23,4 @@ for (var i = 0; i < el.length; i++) {
 
 el[slideIndex - 1].style.display = "block"
 
-
-
-
 }
