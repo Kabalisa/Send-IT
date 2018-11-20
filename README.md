@@ -8,3 +8,5 @@ the finished UI is hosted on github pages and the link is [kabalisa.github.io/Se
 
 **Below are the required features for the product and screenshots of the finished UIs:**
 * User can view the index page
+
+![Index page](img/index.png)
