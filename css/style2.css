@@ -101,6 +101,17 @@ footer{
     text-align: center;
 }
 
+.displayo{
+    background-color: #999999;
+    width:700px;
+    height: 770px;
+    position: relative;
+    left: 230px;
+    margin: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
 .le{
 	position: relative;
 	left:6px;
@@ -154,6 +165,13 @@ footer{
 
 
 .display input{
+	border:none;
+	border-radius:5px;
+	text-align: center;
+	height:30px;
+}
+
+.displayo input{
 	border:none;
 	border-radius:5px;
 	text-align: center;
